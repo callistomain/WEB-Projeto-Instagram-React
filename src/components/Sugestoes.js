@@ -12,7 +12,7 @@ export default function Sugestoes() {
   return (
     <div className="sugestoes">
       <div className="titulo"> Sugestões para você <div>Ver tudo</div> </div>
-      {sugestoes.map(e => <Sugestao data={e}/>)}
+      {sugestoes.map((e, i) => <Sugestao key={i} data={e}/>)}
     </div>
   );
 }
