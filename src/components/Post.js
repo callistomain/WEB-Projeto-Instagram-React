@@ -57,7 +57,7 @@ export default function Post(props) {
           <img alt="" src={"./assets/img/" + props.data.likedUserName + ".svg"} />
           <div className="texto">
             Curtido por <strong>{props.data.likedUserName}</strong> e{" "}
-            <strong>outras {likesAmount.current.toLocaleString('en-US').replace(/,/g, '.')} pessoas</strong>
+            <strong>outras {likesAmount.current.toLocaleString('pt-BR')} pessoas</strong>
           </div>
         </div>
       </div>

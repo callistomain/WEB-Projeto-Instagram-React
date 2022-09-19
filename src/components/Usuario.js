@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Usuario() {
   const [userName, setUserName] = useState("Catana");
-  const [urlAvatar, setUrlAvatar] = useState("assets/img/catanacomics.svg");
+  const [urlAvatar, setUrlAvatar] = useState("./assets/img/catanacomics.svg");
 
   const changeName = () => {
     const name = prompt("Nome de usuário");
